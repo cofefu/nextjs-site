@@ -1,0 +1,6 @@
+{
+  "apiEndpoint": "https://cofefu-blog.prismic.io/api/v2",
+  "repositoryName": "cofefu-blog",
+  "adapter": "@slicemachine/adapter-next",
+  "libraries": ["./slices"]
+}

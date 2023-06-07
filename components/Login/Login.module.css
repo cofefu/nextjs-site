@@ -1,0 +1,117 @@
+.authForm {
+  border-radius: 26px;
+  padding: 50px 55px 0 55px;
+}
+
+.authForm h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 89.4%;
+  color: var(--dark);
+}
+
+.phoneApprove {
+  cursor: pointer;
+  margin-top: 16px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.authForm h5 {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 89.4%;
+  color: var(--dark);
+
+  margin-bottom: 80px;
+}
+
+.authForm h5 span {
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 89.4%;
+}
+
+.authForm label span {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 89.4%;
+  color: var(--dark);
+}
+
+.authForm span:nth-child(2) {
+  margin-top: 5px;
+  border-radius: 6px;
+  font-size: 18px;
+}
+
+.authForm input {
+  font-size: 20px;
+}
+
+.phoneLabel {
+  display: block;
+  margin-bottom: 60px;
+}
+
+.loginButton {
+  width: 100%;
+  height: 60px;
+  cursor: pointer;
+  font-size: 20px;
+  outline: none;
+  border: none;
+
+  color: var(--white);
+  background: var(--primary);
+  border-radius: 93px;
+
+  transition: all 0.3s ease;
+}
+
+.loginButton:active {
+  transform: scale(0.95);
+}
+
+.hidden {
+  display: none;
+}
+
+.verifyTitle {
+  padding: 0 !important;
+
+  margin-bottom: 117px;
+}
+
+.code {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 60px;
+}
+
+.verifyTitle span {
+  font-weight: 500 !important;
+  font-size: 28px !important;
+  color: var(--dark);
+}
+
+@media (max-width: 1320px) {
+  .authForm h2 {
+    font-size: 44px;
+    line-height: 89.4%;
+  }
+
+  .authForm label span {
+    font-size: 28px;
+    line-height: 30px;
+  }
+
+  .authForm span:nth-child(2) {
+    font-size: 28px;
+  }
+
+  .authForm input {
+    font-size: 28px;
+  }
+}

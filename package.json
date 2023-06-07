@@ -1,0 +1,56 @@
+{
+  "name": "nextjs-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "slicemachine": "start-slicemachine"
+  },
+  "dependencies": {
+    "@ant-design/charts": "^1.4.1",
+    "@ant-design/icons": "^4.7.0",
+    "@prismicio/client": "^7.0.1",
+    "@prismicio/next": "^1.2.1",
+    "@prismicio/react": "^2.6.2",
+    "@reactivex/rxjs": "^6.6.7",
+    "@reduxjs/toolkit": "^1.9.1",
+    "@types/lodash": "^4.14.182",
+    "@types/rx": "^4.1.2",
+    "antd": "^4.21.7",
+    "classnames": "^2.3.1",
+    "date-fns": "^2.28.0",
+    "dayjs": "^1.11.4",
+    "framer-motion": "^6.5.1",
+    "lodash": "^4.17.21",
+    "next": "^13.0.4",
+    "nprogress": "^0.2.0",
+    "react": "^18.2.0",
+    "react-cookie": "^4.1.1",
+    "react-dom": "^18.2.0",
+    "react-redux": "^8.0.5",
+    "react-verification-code-input": "^1.2.9",
+    "rxjs": "^7.5.6"
+  },
+  "devDependencies": {
+    "@slicemachine/adapter-next": "^0.2.1",
+    "@svgr/webpack": "^6.3.0",
+    "@types/node": "18.0.6",
+    "@types/nprogress": "^0.2.0",
+    "@types/react": "17.0.2",
+    "@types/react-dom": "17.0.2",
+    "antd-dayjs-webpack-plugin": "^1.0.6",
+    "eslint": "8.20.0",
+    "eslint-config-next": "^13.0.4",
+    "mini-css-extract-plugin": "^2.6.1",
+    "slice-machine-ui": "^1.1.1",
+    "typescript": "4.7.4"
+  },
+  "overrides": {
+    "@antv/g2": "4.2.8",
+    "@antv/g-base": "0.5.11",
+    "@antv/path-util": "2.0.15"
+  }
+}

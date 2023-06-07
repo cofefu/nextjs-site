@@ -1,0 +1,38 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Montserrat";
+  font-style: normal;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  font-family: "Montserrat";
+  box-sizing: border-box;
+}
+
+:root {
+  --black: #000;
+  --white: #fff;
+  --primary: #26376a;
+  --primary-light: #1175d1;
+  --dark: #2d2d2d;
+  --gray: #c9c9c9;
+
+  --danger: #fd726a;
+  --danger-light: #ffdedd;
+
+  --success: #44cb7f;
+  --success-light: #d4ffe7;
+
+  --warning: #f39c12;
+  --warning-light: #fdebd0;
+
+  --info: #3498db;
+  --info-light: #d6eaf8;
+}

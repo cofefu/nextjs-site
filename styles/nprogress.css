@@ -1,0 +1,9 @@
+#nprogress .bar {
+    height: 8px !important;
+}
+
+#nprogress .spinner-icon {
+    width: 25px;
+    height: 25px;
+    border: solid 3px transparent;
+}

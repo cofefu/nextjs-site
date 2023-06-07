@@ -1,0 +1,47 @@
+.main {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 24px;
+    font-size: 24px;
+    gap: 24px;
+}
+
+.profileData {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+}
+
+.input {
+    font-size: 18px;
+    border-radius: 6px;
+    border-color: var(--primary);
+}
+
+.name {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.editButton {
+    cursor: pointer;
+    ;
+}
+
+.listItem {
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.feedback {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}

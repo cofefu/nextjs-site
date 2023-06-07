@@ -1,0 +1,13 @@
+.card {
+    max-width: 320px;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    gap: 12px;
+    padding: 20px;
+    border: 1px solid var(--primary);
+    border-radius: 12px;
+    cursor: pointer;
+    text-align: center;
+    color: var(--dark);
+    margin-bottom: 12px;
+}

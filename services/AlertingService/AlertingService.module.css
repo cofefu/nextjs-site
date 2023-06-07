@@ -1,0 +1,33 @@
+.default {
+  position: fixed;
+
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+z-index: 1001;
+  width: 350px;
+}
+
+.default.left {
+  left: 16px;
+}
+
+.default.center {
+    right: 50%;
+}
+
+.default.right {
+  right: 16px;
+}
+
+.default.top {
+  top: 16px;
+}
+
+.default.bottom {
+  bottom: 16px;
+}
+.default div {
+  margin-bottom: 8px;
+}

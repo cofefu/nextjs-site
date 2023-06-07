@@ -1,0 +1,51 @@
+.default {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+  min-height: 40px;
+  padding: 8px;
+  z-index: 11;
+}
+
+.default button {
+  background-color: transparent;
+
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.default.success {
+  color: var(--success-light);
+  background-color: var(--success);
+}
+
+.default.success button {
+  color: var(--success-light);
+}
+
+.default.error {
+  color: var(--danger-light);
+  background-color: var(--danger);
+}
+
+.default.error button {
+  color: danger-light;
+}
+.default.warning {
+  color: var(--warning-light);
+  background-color: var(--warning);
+}
+.default.warning button {
+  color: var(--warning-light);
+}
+
+.default.info {
+  color: var(--info-light);
+  background-color: var(--info);
+}
+
+.default.info button {
+  color: var(--info-light);
+}

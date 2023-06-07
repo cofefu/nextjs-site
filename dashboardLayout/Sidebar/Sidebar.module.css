@@ -1,0 +1,32 @@
+.sidebar {
+    width: 256px;
+    height: 100vh;
+
+    background-color: var(--primary);
+}
+
+.logoWrapper {
+    padding: 24px;
+}
+
+.logo {
+    max-width: 250px;
+}
+
+.menu {
+    background-color: var(--primary) !important;
+
+    font-size: 20px;
+
+    padding: 0 24px;
+}
+
+.menu svg {
+    font-size: 22px;
+}
+
+@media (max-width: 797px) {
+  .sidebar {
+    display: none;
+  }
+} 

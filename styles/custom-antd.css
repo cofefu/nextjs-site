@@ -1,0 +1,105 @@
+.ant-menu-dark .ant-menu-item-selected {
+  border-radius: 6px;
+
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(107, 191, 255, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(107, 191, 255, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(107, 191, 255, 0.2);
+}
+
+.ant-tabs-content-holder {
+}
+.ant-tabs-tabpane.ant-tabs-tabpane-active {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px;
+
+  margin-bottom: 12px;
+}
+
+.ant-tabs-tab-btn {
+  color: var(--dark);
+  padding: 6px 16px;
+  border-radius: 26px;
+
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: var(--white);
+
+  padding: 6px 16px;
+  background: var(--primary);
+  border: 2px solid var(--primary);
+  border-radius: 26px;
+}
+
+.ant-tabs-ink-bar.ant-tabs-ink-bar-animated {
+  display: none;
+}
+
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: #1175d1;
+}
+
+.ant-select * {
+  border-color: var(--primary) !important;
+  font-size: 20px;
+}
+
+.ant-select:hover,
+.ant-select:focus,
+.ant-select:active {
+  border: var(--primary);
+}
+
+.ant-select:not(.ant-select-disabled):hover .ant-select-selector {
+
+}
+
+.ant-select-single.ant-select-lg:not(.ant-select-customize-input) .ant-select-selector .ant-select-selection-item {
+  margin-right: 12px;
+}
+
+.ant-picker {
+  border-color: var(--primary) !important;
+
+}
+
+.ant-picker-input {
+  font-size: 20px;
+}
+
+textarea.ant-input {
+  border-color: var(--primary);
+}
+
+.ant-tag {
+  margin-right: 0;
+  font-size: inherit;
+  padding: 12px;
+  border-radius: 6px;
+  background: var(--primary);
+  color: var(--white);
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(107, 191, 255, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(107, 191, 255, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(107, 191, 255, 0.2);
+}
+
+.ant-input-prefix {
+  font-size: 14px;
+}
+
+@media (max-width: 797px) {
+  .ant-tabs-tab-btn {
+    font-size: 18px;
+    
+  }
+
+  .ant-tabs-tab + .ant-tabs-tab  {
+    margin: 0
+  }
+} 
